@@ -1,2 +1,5 @@
-more new
-dddddd
+
+
+offsetWidth/offsetHeight返回值包含content + padding + border，效果与e.getBoundingClientRect()相同
+clientWidth/clientHeight返回值只包含content + padding，如果有滚动条，也不包含滚动条
+scrollWidth/scrollHeight返回值包含content + padding + 溢出内容的尺寸
